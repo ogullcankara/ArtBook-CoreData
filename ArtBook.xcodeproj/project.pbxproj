@@ -17,6 +17,7 @@
 		0AD182A328E1A9C200B86E88 /* ArtBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD182A228E1A9C200B86E88 /* ArtBookTests.swift */; };
 		0AD182AD28E1A9C200B86E88 /* ArtBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD182AC28E1A9C200B86E88 /* ArtBookUITests.swift */; };
 		0AD182AF28E1A9C200B86E88 /* ArtBookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD182AE28E1A9C200B86E88 /* ArtBookUITestsLaunchTests.swift */; };
+		0AD182BC28E244FE00B86E88 /* DetialsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD182BB28E244FE00B86E88 /* DetialsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		0AD182A828E1A9C200B86E88 /* ArtBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AD182AC28E1A9C200B86E88 /* ArtBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtBookUITests.swift; sourceTree = "<group>"; };
 		0AD182AE28E1A9C200B86E88 /* ArtBookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtBookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0AD182BB28E244FE00B86E88 /* DetialsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetialsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				0AD1829628E1A9C100B86E88 /* LaunchScreen.storyboard */,
 				0AD1829928E1A9C100B86E88 /* Info.plist */,
 				0AD1829128E1A9BF00B86E88 /* ArtBook.xcdatamodeld */,
+				0AD182BB28E244FE00B86E88 /* DetialsVC.swift */,
 			);
 			path = ArtBook;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AD182BC28E244FE00B86E88 /* DetialsVC.swift in Sources */,
 				0AD1828D28E1A9BF00B86E88 /* ViewController.swift in Sources */,
 				0AD1828928E1A9BF00B86E88 /* AppDelegate.swift in Sources */,
 				0AD1829328E1A9BF00B86E88 /* ArtBook.xcdatamodeld in Sources */,
