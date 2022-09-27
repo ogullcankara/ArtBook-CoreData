@@ -81,6 +81,9 @@ class DetialsVC: UIViewController, UIImagePickerControllerDelegate, UINavigation
         }catch{
             print("Error")
         }
+        
+        NotificationCenter.default.post(name: NSNotification.Name("newData"), object: nil)
+        self.navigationController?.popViewController(animated: true)
     }
     
     
